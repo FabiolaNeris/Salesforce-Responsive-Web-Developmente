@@ -10,8 +10,8 @@ header {
     align-items: center;
     background-color: rgba(26, 24, 99, 1);
     width: 100%;
-    height: 40px;
-    gap: 900px;
+    height: 78px;
+    gap: 600px;
 }
 
 ul {
@@ -32,15 +32,10 @@ ul {
     margin-top: 10px;
 }
 
-.nav-home {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
 
 .caixa-pesquisa {
     position: absolute;
-    top: 23%;
+    top: 15%;
     left: 20%;
     border-radius: 20px;
     width: 767px;
@@ -202,15 +197,74 @@ ul {
 }
 
 .chat-button {
-    position: absolute;
-    width: 175px;
-    height: 57px;
-    left: 1062px;
-    top: 746px;
+    border-radius: 25px;
+    height: 48px;
+    min-width: 146px;
+    max-width: 317px;
+    width: fit-content;
+
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
     background: #1A1863;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 43px;
+
     color: white;
     font-weight: 800;
     font-size: 18px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    position: fixed;
+    left: 40px;
+    bottom: 15px;
+    top:1px;
+    gap: 20px;
+    background-color: #EAF5FE;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.produtos h2{
+    color: #1A1863;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.produtos p{
+    color: #1A1863;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.produtos Image{
+    display: flex;
+    align-items: center;
+}
+
+.container-header{
+    color: #1A1863;
+    text-align: center;
+    padding: 30px;
+}
+
+.container-header h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.container-header h2{
+    font-size: 36px;
+    padding: 20px;
 }
