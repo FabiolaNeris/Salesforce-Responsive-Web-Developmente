@@ -1,0 +1,202 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(26, 24, 99, 1);
+    width: 100%;
+    height: 40px;
+    gap: 900px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icones-header {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icone {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    max-width: 1000px;
+    gap: 500px;
+    margin-top: 10px;
+}
+
+.nav-home {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.caixa-pesquisa {
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    border-radius: 20px;
+    width: 767px;
+    height: 32px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.texto-pesquisa {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    text-align: center;
+    width: 700px;
+    opacity: 0.5;
+}
+
+.component-main {
+    position: absolute;
+    top: 213px;
+    left: 171px;
+    width: 962px;
+    height: 460px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.component-main h1 {
+    position: absolute;
+    left: 7.46%;
+    right: 35.28%;
+    top: 14.44%;
+    bottom: 28.45%;
+
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1A1863;
+}
+
+.imagem-salesforce {
+    position: absolute;
+    left: 68.92%;
+    right: 4.09%;
+    top: 17.41%;
+    bottom: 28.45%;
+}
+
+.sales {
+    position: absolute;
+    width: 225px;
+    height: 176px;
+    left: 268px;
+    top: 599px;
+    background: #E2FBF7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.sales h3 {
+    position: absolute;
+    left: 0.83%;
+    right: 1.25%;
+    top: 72.91%;
+    bottom: 5.42%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #1A1863;
+}
+
+.salescloud-icon {
+    position: absolute;
+    left: 27.11%;
+    right: 27.56%;
+    top: 13.07%;
+    bottom: 35.23%;
+}
+
+.service {
+    position: absolute;
+    width: 225px;
+    height: 176px;
+    left: 528px;
+    top: 599px;
+    background: #F4DDE3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.service h3 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 72.91%;
+    bottom: 5.42%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #1A1863;
+}
+
+.service-icon {
+    position: absolute;
+    left: 22.67%;
+    right: 23.11%;
+    top: 6.25%;
+    bottom: 27.27%;
+}
+
+.marketing {
+    position: absolute;
+    width: 225px;
+    height: 176px;
+    left: 788px;
+    top: 599px;
+    background: #FFEEE3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.marketing h3 {
+    position: absolute;
+    left: 1.33%;
+    right: 0%;
+    top: 72.16%;
+    bottom: 3.41%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #1A1863;
+}
+
+.marketing-icon {
+    position: absolute;
+    left: 26.67%;
+    right: 26.67%;
+    top: 13.07%;
+    bottom: 27.84%;
+}
