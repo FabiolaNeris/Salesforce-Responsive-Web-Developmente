@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {Roboto} from 'next/font/google';
 import Header from "./Header/header";
 import '../../public/css/style.css';
+import Chat from "./Chat/chat";
 
 const roboto = Roboto({
   weight: ['400', '700'], // Pesos da fonte
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body>
         <Header/>
         {children}
+        <Chat/>
       </body>
     </html>
   );
