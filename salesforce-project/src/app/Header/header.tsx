@@ -27,21 +27,21 @@ const Header = () => {
                         </Link></li>
 
 
-                        <li><Link href="https://twitter.com/salesforce">
-                            <Image
-                                src="/assets/twitter.png"
-                                alt="linkedin"
-                                height={28}
-                                width={30}
-                            />
-                        </Link></li>
-
                         <li><Link href="https://www.instagram.com/salesforce/">
                             <Image
                                 src="/assets/instagram.png"
-                                alt="linkedin"
+                                alt="instagram"
+                                height={28}
+                                width={28}
+                            />
+                        </Link></li>
+
+                        <li><Link href="/Grupo">
+                            <Image
+                                src="/assets/conversa-em-grupo.png"
+                                alt="grupo"
                                 height={30}
-                                width={31}
+                                width={30}
                             />
                         </Link></li>
                     </ul>

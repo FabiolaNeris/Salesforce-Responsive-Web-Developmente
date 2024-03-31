@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Roboto} from 'next/font/google';
 import Header from "./Header/header";
+import Footer from "./Footer/footer";
 import '../../public/css/style.css';
 import Chat from "./Chat/chat";
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         {children}
         <Chat/>
       </body>
+
     </html>
   );
 }

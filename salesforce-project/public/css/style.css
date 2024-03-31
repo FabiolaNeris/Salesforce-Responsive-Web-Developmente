@@ -1,8 +1,9 @@
 * {
     margin: 0 auto;
     padding: 0;
-    font-family: Roboto;
+    /* font-family: Roboto; */
 }
+
 
 header {
     display: flex;
@@ -35,7 +36,7 @@ ul {
 
 .caixa-pesquisa {
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 20%;
     border-radius: 20px;
     width: 767px;
@@ -56,39 +57,85 @@ ul {
 }
 
 .component-main {
-    position: absolute;
-    top: 213px;
-    left: 171px;
-    width: 962px;
-    height: 460px;
+    max-width: 900px;
+    height: 400px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    padding: 20px;
+    margin-top: 90px
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 60px;  
+    text-decoration: none;
 }
 
-.component-main h1 {
-    position: absolute;
-    left: 7.46%;
-    right: 35.28%;
-    top: 14.44%;
-    bottom: 28.45%;
-
-    font-family: 'roboto';
-    font-style: normal;
+.card h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
     color: #1A1863;
+    text-align: start;
 }
 
-.imagem-salesforce {
-    position: absolute;
-    left: 68.92%;
-    right: 4.09%;
-    top: 17.41%;
-    bottom: 28.45%;
+.caixas{
+    display: flex;
+    width: 800px;
+    gap: 45px;
+    padding: 10px 20px 20px 20px;
+    margin: 20px auto
 }
 
-.sales {
+.sales{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 225px;
+    height: 176px;
+    border-radius: 10px;
+    padding: 5px;
+    background: #E2FBF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 225px;
+    height: 176px;
+    border-radius: 10px;
+    padding: 5px;
+    background: #F4DDE3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketing{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 225px;
+    height: 176px;
+    border-radius: 10px;
+    padding: 5px;
+    background: #FFEEE3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales, .service, .marketing h3{
+    color: #1A1863;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+/* .sales {
     position: absolute;
     width: 225px;
     height: 176px;
@@ -194,7 +241,7 @@ ul {
     right: 26.67%;
     top: 13.07%;
     bottom: 27.84%;
-}
+} */
 
 .chat-button {
     border-radius: 25px;
@@ -218,16 +265,22 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow-y: auto;
+    overflow-y: scroll;
     position: fixed;
     left: 40px;
-    bottom: 15px;
-    top:1px;
+    bottom: 0px;
+    top: 0px;
     gap: 20px;
     background-color: #EAF5FE;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
 }
 
-.produtos{
+
+.produtos {
     display: flex;
     justify-content: center;
     width: 1000px;
@@ -235,36 +288,63 @@ ul {
     padding: 20px;
 }
 
-.produtos h2{
+.produtos h2 {
     color: #1A1863;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.produtos p{
+.produtos p {
     color: #1A1863;
     display: flex;
     justify-content: flex-start;
     margin-top: 20px;
 }
 
-.produtos Image{
+.produtos Image {
     display: flex;
     align-items: center;
 }
 
-.container-header{
+.container-header {
     color: #1A1863;
     text-align: center;
     padding: 30px;
 }
 
-.container-header h1{
+.container-header h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.container-header h2{
+.container-header h2 {
     font-size: 36px;
     padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(26, 24, 99, 1);
+    width: 100%;
+    height: 30px;
+    gap: 600px;
+}
+
+footer a {
+    color: white;
+}
+
+.grupo{
+    display: flex;
+    margin: 100px auto;
+    gap: 10px;
+}
+
+.integrantes-titulo{
+    color: #1A1863;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
 }
