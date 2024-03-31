@@ -10,8 +10,8 @@ const Header = () => {
                         <Image
                             src="/assets/Salesforce.com_logo.svg.png"
                             alt="logo salesforce"
-                            height={67}
-                            width={96}
+                            height={55}
+                            width={80}
                         />
                     </Link>
                 </div>
