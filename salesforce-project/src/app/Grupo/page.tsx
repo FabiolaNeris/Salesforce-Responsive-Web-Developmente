@@ -41,7 +41,7 @@ const Grupo = () => {
                         />
                         <p>Gabriel Leal Onodera</p>
                         <p> RM 553779</p>
-                        <Link href="">
+                        <Link href="https://github.com/GLOnodera">
                             <Image
                                 src="/assets/github.png"
                                 alt=""
