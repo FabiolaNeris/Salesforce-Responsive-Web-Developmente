@@ -348,3 +348,57 @@ footer a {
     margin: 40px;
     padding: 10px;
 }
+
+@media screen and (max-width: 430px) {
+
+    header{
+        gap: 100px;
+    }
+
+    .caixa-pesquisa{
+        width: 330px;
+        height: 30px;
+        left: 10%;
+    }
+
+    .texto-pesquisa{
+        font-size: 12px;
+    }
+    
+    .component-main{
+        width: 80%;
+        height: 260px;
+    }
+
+    .card{
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .card h1{
+        font-size: 25px;
+        line-height: 30px;
+        align-items: center;
+    }
+
+    .imagem-salesforce{
+        width: 170px;
+        height: 170px;
+    }
+
+    .caixas{
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .sales, .service, .marketing{
+        width: 60%;
+        height: 176px;
+        align-items: center;
+    }
+
+    .chat-button{
+        right: 25px;
+    }
+
+}
