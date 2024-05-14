@@ -17,7 +17,7 @@ export default function Home() {
 
 
       <div className="component-main">
-        <Link href="/Produtos">
+        <Link href="/Produtos" style={{ textDecoration: 'none' }}>
           <div className="card">
             <h1>
               Saiba como os produtos Salesforce te ajudam a reduzir custos e economizar tempo.

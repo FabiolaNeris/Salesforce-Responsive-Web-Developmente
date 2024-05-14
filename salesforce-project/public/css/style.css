@@ -64,13 +64,13 @@ ul {
     padding: 20px;
     margin-top: 90px
 }
+
 .card{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
     margin-top: 60px;  
-    text-decoration: none;
 }
 
 .card h1 {
