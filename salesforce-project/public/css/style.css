@@ -352,7 +352,7 @@ footer a {
 @media screen and (max-width: 430px) {
 
     header{
-        gap: 100px;
+        gap: 15px;
     }
 
     .caixa-pesquisa{
@@ -367,17 +367,17 @@ footer a {
     
     .component-main{
         width: 80%;
-        height: 260px;
+        height: 330px;
     }
 
     .card{
-        gap: 30px;
-        margin-top: 20px;
+        gap: 10px;
+        margin-top: 10px;
     }
 
     .card h1{
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 33px;
         align-items: center;
     }
 
@@ -395,10 +395,43 @@ footer a {
         width: 60%;
         height: 176px;
         align-items: center;
+
     }
+
+    .sales, .service, .marketing h3{
+        font-size: 20px;
+    }
+
+    .salescloud-icon, .service-icon, .marketing-icon{
+        width: 82px;
+        height: 82px;
+    }
+
+
 
     .chat-button{
         right: 25px;
+        height: 28px;
+        min-width: 90px;
+        max-width: 296px;
+        font-size: 11px;
+    }
+
+    .side-bar{
+        left: 5px;
+    }
+
+    .container-header h1{
+        font-size: 28px;
+    }
+    .container-header h2{
+        font-size: 22px;
+    }
+
+    .produtos{
+        flex-direction: column;
+        width: 60%;
+        
     }
 
 }
