@@ -14,9 +14,9 @@ const Chat: React.FC = () => {
     //manter os dados do formulário
     const [formData, setFormData] = useState<ILead>(
         {
-            nome_empresa:'TESTE DA FABIOLA',
-            cnpj: '0987654321',
-            email: 'teste@teste.com'
+            nome_empresa:'',
+            cnpj: '',
+            email: ''
         }
     );
 
@@ -41,7 +41,7 @@ const Chat: React.FC = () => {
 
                 //enviar dados para json
                 //para comunicação o método é post
-            await axios.post('http://localhost:3000/leads'), formData;
+            await axios.post('http://localhost:3000/leads', formData);
             alert('Contato registrado com sucesso');
 
             //limpar os dados do formulário
@@ -77,7 +77,7 @@ const Chat: React.FC = () => {
                 <form onSubmit={handleSubmit}>
                     <label>Nome da Empresa</label>
                     <input type="text" 
-                            name="companyName" 
+                            name="nome_empresa" 
                             value={formData.nome_empresa} 
                             onChange={handleChange}
                             required />
@@ -96,7 +96,7 @@ const Chat: React.FC = () => {
                             onChange={handleChange}
                             required />
 
-                    <button type="submit" >Enviar</button>
+                    <button type="submit">Enviar</button>
 
                 </form>
 
